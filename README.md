@@ -24,7 +24,7 @@ Planning
 Jour 1: Revue et approfondissement de Javascript
 ===
 
-* [EcmaScript](./1_Ecmascript.pdf)
+* [EcmaScript](./sources/Ecmascript.md)
 
 Revoir les bases de javascript et l'ES6, ça ne fait pas de mal.
 
@@ -32,8 +32,8 @@ Jour 2: Premiers pas avec les composants
 ===
 VueJS
 
-* [Premier Pas](./2_VueJS_PremierPas.pdf)
-* [Les Composants](./3_VueJS_Composants.pdf)
+* [Premier Pas](./sources/VueJS_PremierPas.md)
+* [Les Composants](./sources/VueJS_Composants.md)
 
 Découverte de VueJS et du principe de composants
 
@@ -41,8 +41,8 @@ Jour 3: Les composants avancés
 ===
 VueJS
 
-* [les RequetesWeb](./4_VueJS_LesRequetesWeb.pdf)
-* [Les Composants Avancés](./5_VueJS_ComposantsAvances.pdf)
+* [les RequetesWeb](./sources/VueJS_LesRequetesWeb.md)
+* [Les Composants Avancés](./sources/VueJS_ComposantsAvances.md)
 
 Il faut bien manipuler de la données. Découvrons comment intégrer l'ajax et la mise à jour de components.
 
@@ -50,8 +50,8 @@ Jour 4: Le store et VueX
 ===
 VueJS
 
-* [Router](./6_VueJS_Router.pdf)
-* [Store](./7_VueJS_Store.pdf)
+* [Router](./sources/VueJS_Router.md)
+* [Store](./sources/VueJS_Store.md)
 
 Navigation entre des pages et stockage de données sont les objectifs de la journée.
 
@@ -59,6 +59,6 @@ Jour 5: validation
 ===
 VueJS
 
-* [Validation](./8_VueJS_Validation.pdf)
+* [Validation](./sources/VueJS_Validation.md)
 
 Vee-validate ou tout simplement la validation de formulaires
