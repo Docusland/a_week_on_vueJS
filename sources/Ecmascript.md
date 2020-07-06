@@ -108,6 +108,8 @@ myPromise.then(function(value) {
 })
 ```
 
+ * https://jakearchibald.com/2017/async-iterators-and-generators/
+ * https://v8.dev/features/promise-finally
 
 Les fonctions fléchées
 ====
@@ -194,6 +196,7 @@ Spread et Rest opérateurs
 
 Le paramètre `...` permet d'utiliser un tableau comme argument d'un fonction, simplifiant l'utilisation d'un nombre indéfini d'arguments.
 
+ * https://v8.dev/features/object-rest-spread
 
 ```javascript
 function maFonction(premier,...leReste) {
@@ -335,3 +338,10 @@ arr.forEach((num) => {
   console.log(num); // 1/2/3/4
 })
 ```
+
+Ressources
+===
+
+Voici une ressource intéressante lorqu'on souhaite approfondir le développement:
+
+ * https://ponyfoo.com/articles/modular-design-thinking 
