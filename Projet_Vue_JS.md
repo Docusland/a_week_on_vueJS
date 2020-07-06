@@ -92,11 +92,11 @@ Evaluation
 Au sein de votre livrable final, sera évalué : 
  - la présence de l'intégralité des fonctionnalités demandées (5)
  - la propreté du code (10)
-  - indentation du code
-  - propreté des commits
-  - nommage des variables
-  - structure des components
-  - absence de code superflu
+   - indentation du code
+   - propreté des commits
+   - nommage des variables
+   - structure des components
+   - absence de code superflu
  - la répartition des tâches pour le travail en équipes (2)
  - un fichier README présentant ce dépot et comment l'installer (2)
  - le style. Nous ne faisons pas du css ou du sass ici mais c'est mieux quand c'est joli :) (1)
