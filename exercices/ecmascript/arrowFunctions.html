@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  </head>
+  
+  <body>
+    <input type="button" value="click" id='element'>
+  </body>
+
+  <script>
+    /*********************** EventListener *************/
+    let node = document.getElementById('element');
+    node.addEventListener('click', () => {
+      alert('clicked on the button');
+    });
+  </script>
+  <script>
+    /********************** Arrow functions ************/
+    window.name = "global";
+    var person = {
+      name: "jason",
+
+      shout: function () {
+        console.log("my name is ", this.name);
+      },
+      shout2: () => {
+        console.log("my name is ", this.name);
+        // in this case this is bound to the global object 
+        // (or, more generally to an enclosing scope).        
+      },
+      shout3() {
+        console.log("my name is ", this.name);
+      }
+    };
+
+    person.shout();  // "jason"
+    person.shout2(); // "global"
+    person.shout3(); // "jason"
+  </script>
+  <script>
+    /********************** rest **************/
+    function sendMessage(title, content) {
+      console.error("...msg " + title.toUpperCase() + ' : ' + content);
+    } 
+    let msg = ['Title of my post', 'All the text I want to write...'];
+    sendMessage(...msg);
+
+    // let othermsg = {name: 'title', desc: 'content'};
+    // sendMessage(...othermsg);
+    //
+    // TypeError: othermsg is not iterable
+  </script>
+  <script>
+    /********************** Promises************/
+    const myPromise = new Promise( (resolve, reject) => {
+      setTimeout(function() { 
+        resolve('foo');
+      }, 1000);
+    });
+    myPromise.then( (value) => {
+      let div = document.createElement('div');
+      div.innerText = 'Promise successfully executed. returned' + value;
+      document.body.appendChild(div);
+    }).catch( (error) => {
+      // Appelé lorsque "reject" est appelé
+      console.error(error);
+    })
+
+
+    /********************* Async - Await ******************/
+    // <!-- src : https://blog.bitsrc.io/understanding-javascript-async-and-await-with-examples-a010b03926ea -->
+  </script>
+
+</html>
