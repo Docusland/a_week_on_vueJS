@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing Ajax</title>
+</head>
+<body>
+  <div id="content">
+
+  </div>
+  <script>
+    let pseudo = 'yyx990803';
+
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+      if(xhr.readyState === 4 && xhr.status === 200)
+      {
+        let response = xhr.response;
+        let jsonResponse = JSON.parse(response);
+
+        var avatar = document.createElement('img');
+        avatar.src = jsonResponse.avatar_url;
+
+        var h1 = document.createElement('h1');
+        h1.innerText = jsonResponse.login;
+
+        var div = document.createElement('pre');
+        div.innerText =response;
+        
+        let container = document.getElementById('content');
+        container.appendChild(h1);
+        container.appendChild(avatar);
+        container.appendChild(div);
+      }
+    };
+    xhr.open('GET', 'https://api.github.com/users/' + pseudo);
+    xhr.send(null);
+    
+
+  </script>
+</body>
+</html>
