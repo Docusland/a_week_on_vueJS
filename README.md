@@ -34,8 +34,14 @@ VueJS
 
 * [Premier Pas](./sources/VueJS_PremierPas.md)
 * [Les Composants](./sources/VueJS_Composants.md)
+* [Liste de packages](https://awesomejs.dev/for/vue/)
 
 Découverte de VueJS et du principe de composants
+
+Evaluation : 
+ - Exercice de liste de courses
+ - possibilité d'utiliser les icones : https://www.flaticon.com/packs/supermarket-105
+ Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 Jour 3: Les composants avancés
 ===

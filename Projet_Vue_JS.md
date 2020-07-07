@@ -87,6 +87,12 @@ Equipe G:
 - SANDRIER Louis
 - SECHILARIU Emilien
 
+Equipe H:
+
+- BARBIER Allan
+- BESLOT Samuel
+- PONTOIZEAU Alexis
+
 Evaluation
 ==
 Au sein de votre livrable final, sera évalué : 
