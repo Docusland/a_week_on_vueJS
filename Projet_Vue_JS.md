@@ -39,6 +39,7 @@ Une page avec une repésentation graphique des astres de type planète :
 Page des favoris
 ===
 Il doit être possible de spécifier des astres en tant que favoris et de le retirer de la liste des favoris.
+Lorsque vous rajouter un astre en favory, une notification doit apparaître pour vous le signaler. 
 
 L'affichage des astres sur cette page réutilise l'affichage en liste de la page 'liste des astres'
 
